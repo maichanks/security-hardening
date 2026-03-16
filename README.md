@@ -12,7 +12,11 @@
 
 **Status**: Stable | **License**: MIT | **Author**: maichanks
 
-An OpenClaw skill that provides comprehensive security hardening: static scanning, runtime sandbox, audit logging, and Docker hardening.
+> ⚡ **一键部署**：`curl -fsSL https://raw.githubusercontent.com/maichanks/security-hardening/main/deploy.js -o deploy.js && node deploy.js`
+>
+> 为 OpenClaw 提供企业级安全加固：静态代码扫描、运行时沙箱隔离、集中审计日志、Docker 安全加固。无缝集成 Gateway，5 分钟提升系统安全性。
+
+**🛡️ 5 分钟加固** | 📖 双语文档 | 🆓 MIT 协议 | 🔒 专为 OpenClaw 设计
 
 ### Features
 
@@ -22,6 +26,19 @@ An OpenClaw skill that provides comprehensive security hardening: static scannin
 - Compliance templates (GDPR, SOC2)
 - Auto-remediation for common issues
 - Seamless OpenClaw Gateway integration
+
+### 🚀 One-Click Deploy
+
+Run the automated deployment script:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/maichanks/security-hardening/main/deploy.js -o deploy.js && node deploy.js
+```
+
+This will clone the skill, install dependencies, and print next steps.
+
+---
+
 
 ### Quick Start
 
@@ -137,3 +154,24 @@ openclaw cron add \
   --session isolated \
   --message "node $HOME/.openclaw/workspace/skills/security-hardening/scripts/audit.js --path $HOME/.openclaw/workspace"
 ```
+
+---
+
+## 📝 Keywords
+
+`openclaw`, `security`, `hardening`, `audit`, `static-analysis`, `docker`, `sandbox`, `compliance`, `gdpr`, `soc2`, `vulnerability-scanning`, `secrets-detection`
+
+---
+
+## 🔗 Related OpenClaw Projects
+
+- [Smart Digest](https://github.com/maichanks/smart-digest) - AI-powered news digest for OpenClaw
+- [OpenClaw GitHub Trending Notifier](https://github.com/maichanks/openclaw-github-trending) - Monitor GitHub trending
+- [LLM Cost Optimizer](https://github.com/maichanks/llm-cost-optimizer) - LLM cost monitoring
+- [Multi-Platform Publisher](https://github.com/maichanks/multi-platform-publisher) - MCP-based publishing platform
+
+---
+
+## 📄 License
+
+MIT © 2026 maichanks <hankan1993@gmail.com>
